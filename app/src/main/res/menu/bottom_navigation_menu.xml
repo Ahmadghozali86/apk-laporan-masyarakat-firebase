@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Tambahkan Laporan"
+        android:icon="@drawable/tambahlaporan"
+        android:id="@+id/menu_laporan"
+        />
+    <item android:title="History Laporan"
+        android:icon="@drawable/listlaporan"
+        android:id="@+id/menu_view"
+        />
+</menu>

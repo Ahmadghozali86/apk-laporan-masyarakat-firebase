@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".daftar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Akun"
+        android:textColor="@color/warna_utama"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+    <EditText
+        android:id="@+id/demail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_input"
+        android:ems="10"
+        android:textColor="@color/warna_utama"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:hint="  Email"
+        android:textColorHint="@color/warna_utama"
+        android:drawableLeft="@drawable/email" />
+    <EditText
+        android:id="@+id/dpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_input"
+        android:ems="10"
+        android:textColor="@color/warna_utama"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:hint="  Password"
+        android:textColorHint="@color/warna_utama"
+        android:drawableLeft="@drawable/password" />
+    <Button
+        android:id="@+id/btndaftar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/warna_utama"
+        android:text="Login" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Sudah Punya Akun? | Login"
+        android:layout_marginTop="20dp"
+        android:id="@+id/login"
+        android:layout_marginBottom="100dp"
+        android:textColor="@color/warna_utama"
+        />
+    </LinearLayout>
+
+</ScrollView>

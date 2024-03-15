@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827571464745",
+    "project_id": "civilreportapps",
+    "storage_bucket": "civilreportapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827571464745:android:be75b0c24b7c6844694a38",
+        "android_client_info": {
+          "package_name": "com.example.civilreportapps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHFYz8LFTX14H8OPtc1Xq8crDny8QKp_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
